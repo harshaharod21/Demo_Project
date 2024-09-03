@@ -31,6 +31,7 @@ Example 2:
 - Output: Find the My Account tab in the bottom section. This can help you in changing your personal information. Provide me with the screenshot of the My Account tab so that I can assist further.
 
 User given context: {context}
+```
 
 
 ## Explanation
