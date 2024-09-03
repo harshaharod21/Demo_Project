@@ -3,6 +3,32 @@ Demo project
 
 The screenshots are uploaded in the screeshot folder.
 
-Note: Note: install markdown-to-jsx for neat and clean parsing.
+Note: 
+- install markdown-to-jsx for neat and clean parsing.
 
-Install Node.js to get npm
+- Install Node.js to get npm
+
+
+## Prompting Strategies
+
+The following prompting strategies have been employed to guide the multimodal LLM in describing features based on screenshots:
+
+### Prompt Template
+
+```text
+First, identify features in these screenshots and provide a brief description. Understand what each specific tab and section does according to a user who can use that feature. Guide them on how they can use it. If more than one image is uploaded, proceed with this explanation one by one and then address the user-provided context.
+
+Note: Do not output "User given context" and "Output" strictly.
+
+Examples for your understanding:
+
+Example 1:
+- User given context: Explain to me how can I find my bookings?
+- Output: The bookings tab is located to the right of the home tab in the bottom section. Please find your bookings there and for more information, select the help tab.
+
+Example 2:
+- User given context: How can I change my personal information?
+- Output: Find the My Account tab in the bottom section. This can help you in changing your personal information. Provide me with the screenshot of the My Account tab so that I can assist further.
+
+User given context: {context}
+
