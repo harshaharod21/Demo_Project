@@ -1,0 +1,8 @@
+Flask
+gunicorn
+pillow               # For image processing
+google-generativeai  # For Google's Gemini LLM integration
+ctransformers       # If using ctransformers for any transformer models
+accelerate         # For GPU acceleration
+python-dotenv
+flask_cors
