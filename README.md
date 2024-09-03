@@ -32,3 +32,18 @@ Example 2:
 
 User given context: {context}
 
+
+## Explanation
+
+To guide the multimodal LLM in describing features from screenshots, we use the following prompting strategy:
+
+1. **Feature Identification**: The model is asked to identify and describe features in the provided screenshots.
+
+2. **User Guidance**: It explains how each feature can be used from a user's perspective.
+
+3. **Handling Multiple Images**: For multiple images, the model processes each one sequentially and then addresses any additional user-provided context.
+
+4. **Contextual Relevance**: The prompt incorporates user-provided context to tailor the explanation to specific questions or needs.
+
+
+
