@@ -48,7 +48,7 @@ This guide will help you set up and run the project, including both the backend 
 
 
 
-4. **Set the environment variables:**
+4. **Set up Flask:**
    - On Windows:
    
      ```bash
