@@ -46,14 +46,9 @@ This guide will help you set up and run the project, including both the backend 
 
 3. **Ensure that the virtual environment is activated.**
 
-4. **Open a new Git Bash terminal:**
-   - Navigate to the backend directory:
-   
-     ```bash
-     cd backend
-     ```
 
-5. **Set the environment variables:**
+
+4. **Set the environment variables:**
    - On Windows:
    
      ```bash
@@ -61,7 +56,7 @@ This guide will help you set up and run the project, including both the backend 
      set FLASK_ENV=development
      ```
    
-6. **Run the Flask application:**
+5. **Run the Flask application:**
 
     ```bash
     flask run
