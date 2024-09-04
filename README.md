@@ -47,4 +47,7 @@ To guide the multimodal LLM in describing features from screenshots, we use the 
 4. **Contextual Relevance**: The prompt incorporates user-provided context to tailor the explanation to specific questions or needs.
 
 
+Link of Project Demo:
+https://www.loom.com/share/9d9d948a02a741c087444a2f6d30018f
+
 
