@@ -49,11 +49,11 @@ This guide will help you set up and run the project, including both the backend 
 
 
 4. **Set up Flask:**
-   - On Windows:
+   - :
    
      ```bash
-     set FLASK_APP=app
-     set FLASK_ENV=development
+     export FLASK_APP=app
+     export FLASK_ENV=development
      ```
    
 5. **Run the Flask application:**
@@ -67,7 +67,7 @@ This guide will help you set up and run the project, including both the backend 
 1. **Move to the frontend directory:**
 
     ```bash
-    cd ../frontend
+    cd frontend
     ```
 
 2. **Install the required npm packages:**
