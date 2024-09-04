@@ -20,7 +20,7 @@ This guide will help you set up and run the project, including both the backend 
 1. **Create the virtual environment:**
 
     ```bash
-    python -m venv venv
+    python -m venv myproject
     ```
 
 2. **Activate the virtual environment:**
